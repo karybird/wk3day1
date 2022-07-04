@@ -1,0 +1,90 @@
+a, h1, h2, h3, div, body, html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("Roboto-Light.ttf") format("truetype")
+}
+
+body {
+    background-color: #ffffbf;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    Padding: 0;
+		Border: 0;
+		Margin: 0;
+    clear: left;
+}
+h3 {
+    font-weight: bold;
+}
+p {
+  font-size: 15px;
+  padding-left: 15px;
+}
+nav {
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+}
+.left {
+  float: left;
+  width: 50%;
+  background-color: #e3b104;
+  text-align: left;
+  padding: 15px;
+  word-spacing: normal;
+
+}
+.right {
+  float: right;
+  width: 50%;
+  background-color: #e3b104;
+  text-align: right;
+  padding: 15px;
+  word-spacing: 10px;
+
+}
+#container {
+  clear: both;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dash, .budget, .check, .money {
+  float: left;
+  left: 0;
+  width: 200px;
+  border: 1px solid #e3b104;
+  border-radius: 5px;
+  background-color: white;
+  padding:  15px;
+}
+.button {
+  font-family: "Roboto", sans-serif;
+  background-color: #e3b104;
+  color: white;
+  border-width: thin;
+  border-radius: 5px;
+  width: 200px;
+  height: 25px;
+}
+button:hover {
+  text-decoration: underline;
+}
