@@ -24,15 +24,17 @@ p {
   font-size: 15px;
   padding-left: 15px;
 }
-nav {
-  width: auto;
-  height: auto;
-  display: flex;
+#header {
+  text-align: center;
   align-items: center;
-  justify-content: center;
-  margin-bottom: 50px;
+  flex-wrap: nowrap;
+  display: flex;
+  justify-content: space-between;
+  background-color: #e3b104;
+  margin-bottom: 25px;
+  padding: 15px;
 }
-nav a {
+a {
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   color: white;
@@ -41,22 +43,12 @@ a:hover {
   text-decoration: underline;
 }
 .left {
-  float: left;
-  width: 50%;
-  background-color: #e3b104;
   text-align: left;
-  padding: 15px;
   word-spacing: normal;
-
 }
 .right {
-  float: right;
-  width: 50%;
-  background-color: #e3b104;
   text-align: right;
-  padding: 15px;
   word-spacing: 10px;
-
 }
 #container {
   clear: both;
@@ -68,8 +60,6 @@ a:hover {
   flex-wrap: wrap;
 }
 .dash, .budget, .check, .money {
-  float: left;
-  left: 0;
   width: 200px;
   border: 1px solid #e3b104;
   border-radius: 5px;
